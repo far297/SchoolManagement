@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB">
+
+    <ImageView
+        android:id="@+id/eduConnectImage"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/edu_logo" />
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eduConnectImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFC107"
+        android:text="GET STARTED"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

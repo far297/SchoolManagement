@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_dashboard_teacher"
+        android:title="Dashboard"
+        />
+    <item
+        android:id="@+id/menu_result_hub"
+        android:title="Result Hub"
+        />
+    <item
+        android:id="@+id/menu_edit_results"
+        android:title="Update Results"
+       />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Log Out"
+         />
+
+
+</menu>
